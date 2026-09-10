@@ -1,39 +1,14 @@
 body {
-    position: relative; /* Necesario para alinear el fondo */
-    margin: 0;
-    min-height: 100vh;
-    
-    /* Estilos de tu texto y cursor */
+    background-color: #E6CCDF;
+    background: #E6CCDF;
     font-family: 'Be Vietnam', sans-serif;
     font-size: 9px;
     color: #2e2e2e;
     letter-spacing: 0.3px;
     line-height: 180%;
     text-transform: lowercase;
-    text-align: justify;
-    cursor: url(https://postimg.cc), auto;
+    text-align: justify;cursor:url(https://i.postimg.cc/Px4ysW9f/tiny.png),auto;
 }
-
-/* Capa especial solo para la imagen con Blur */
-body::before {
-    content: "";
-    position: fixed;
-    top: -10px; /* Evita que se vean bordes blancos por el blur */
-    left: -10px;
-    width: calc(100% + 20px);
-    height: calc(100% + 20px);
-    z-index: -1; /* Lo manda detrás del texto */
-    
-    /* Tu imagen de fondo */
-    background-image: url('https://xatimg.com/image/PYes6rar9N2U.gif');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    
-    /* El filtro Blur (puedes cambiar los px a tu gusto) */
-    filter: blur(7px); 
-}
-
 
 small, sub, sup {
     font-size: 9px;
@@ -44,12 +19,6 @@ b, bold, strong {
     font-weight: bold; 
     font-family: poppins;
     text-transform: uppercase;
-}
-
-i, italic {
-    color: #f8d8af;
-}
-
 a { 
  cursor:url(https://i.postimg.cc/Px4ysW9f/tiny.png),auto;
   color: #D09078;
