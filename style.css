@@ -19,6 +19,12 @@ b, bold, strong {
     font-weight: bold; 
     font-family: poppins;
     text-transform: uppercase;
+}
+
+i, italic {
+    color: #f8d8af;
+}
+
 a { 
  cursor:url(https://i.postimg.cc/Px4ysW9f/tiny.png),auto;
   color: #D09078;
